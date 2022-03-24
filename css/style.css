@@ -27,7 +27,7 @@ body {
   font-size: calc((15 - 12) * ((100vw - 360px) / (1000 - 360)) + 12px);
   line-height: 1.47059;
   background-color: #fff;
-  color: #333;
+  color: #111;
 }
 
 a {
