@@ -1,0 +1,1092 @@
+@charset "UTF-8";
+@import url(sanitize.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&family=Noto+Serif+JP:wght@400;700&display=swap');
+
+/*
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Noto Serif JP', serif;
+ */
+
+
+/*============================
+Base
+============================*/
+
+body {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  text-rendering: auto;
+  font-family: 'Noto Sans JP', sans-serif;
+  position: relative;
+  letter-spacing: .1em;
+  margin: 0;
+  font-weight: 300;
+  font-size: calc((15 - 12) * ((100vw - 360px) / (1000 - 360)) + 12px);
+  line-height: 1.47059;
+  background-color: #fff;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #111;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  font-weight: 500
+}
+
+a:hover {
+  color: #88CCC4;
+  opacity: .8
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a img {
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease
+}
+
+a:hover img {}
+
+li {
+  list-style: none
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: "Meiryo", 'Noto Sans JP', "游ゴシック体", "Yu Gothic", "Hiragino Kaku Gothic Pro", sans-serif !important;
+  font-size: calc((15 - 12) * ((100vw - 360px) / (1000 - 360)) + 12px);
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.sp {
+  display: none
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+/*============================
+.inquery
+============================*/
+
+.inquery {
+  z-index: 5;
+  background-color: #fff;
+}
+
+.inquery .inner {
+  padding: 40px 0 40px;
+  text-align: center;
+}
+.inquery .text {
+  margin-bottom: 10px;
+}
+.inquery .form {
+  margin-bottom: 20px;
+}
+
+.inquery .form a {}
+
+.inquery .form a img {max-width: 80%;}
+
+.inquery .tel {}
+
+.inquery .tel a {}
+
+.inquery .tel a img {max-width: 80%;}
+
+
+/*============================
+#header
+============================*/
+
+#header {
+  position: absolute;
+  width: 100%;
+  display: block;
+  background-color: #1f2667;
+  padding: 3px 0 7px;
+  position: fixed;
+  z-index: 99;
+}
+
+#header .inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+#header .sitelogo {
+  padding: 10px 0 0;
+  width: 26.8%;
+}
+
+#header .sitelogo a {
+  display: block;
+}
+
+#header .sitelogo a img {}
+
+#header .contact {}
+
+#header .contact a {}
+
+#header .contact a img {}
+
+
+/*============================
+#mainvisual
+============================*/
+
+#mainvisual {
+  width: 100%;
+  height: 800px;
+  background: url(../img/mv.jpg) no-repeat;
+  background-size: auto 100%;
+  background-position: top center;
+}
+
+#mainvisual .inner {
+  position: relative;
+  height: 100%;
+  display: block;
+}
+
+#mainvisual .message {
+  position: absolute;
+  top: 200px;
+}
+
+#mainvisual .message p {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 70px;
+  color: #1f2667;
+  text-shadow: 6px 0px 8px #fff;
+}
+
+#mainvisual .infomation {
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+  display: block;
+}
+
+#mainvisual .infomation .header {
+  display: block;
+  background: #FFF;
+  text-align: center;
+  padding: 20px;
+}
+
+#mainvisual .infomation .header p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#mainvisual .infomation .header p span {
+  color: #1f2667;
+}
+
+#mainvisual .infomation .header p span b {
+  font-size: 30px;
+}
+
+#mainvisual .infomation .contents {
+  background: #1f2667;
+  padding: 20px;
+  text-align: center;
+}
+
+#mainvisual .infomation .contents p {
+  font-family: "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO";
+  font-size: 28px;
+  font-weight: bold;
+  color: #FFF;
+  line-height: 1.5;
+}
+
+#mainvisual .name {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  padding: 13px 30px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+#mainvisual .name p {
+  font-family: "ヒラギノ丸ゴ Pro W4", "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO", "HGMaruGothicMPRO";
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+}
+
+#mainvisual .name p span {
+  display: block;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+
+/*============================
+#cancer
+============================*/
+
+#cancer {
+  background: url(../img/cancer_bg.jpg);
+  background-size: cover;
+  background-color: #fff;
+}
+
+#cancer .inner {
+  padding: 70px 0 100px;
+}
+
+#cancer h1 {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  font-size: 56px;
+  color: #4C3D30;
+  text-align: center;
+  margin: 0 0 50px;
+}
+
+#cancer h2 {
+  font-size: 36px;
+  text-align: center;
+  line-height: 1.5;
+  margin: 0 0 50px;
+}
+
+#cancer h2 span {
+  color: #FF7F00;
+}
+
+#cancer .graph {
+  text-align: center;
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+#cancer .graph img {}
+
+#cancer .graph .aside {
+  position: absolute;
+  right: 0;
+  padding: 10px;
+}
+
+#cancer .graph .aside p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: right;
+}
+
+#cancer .graph .aside p span {
+  font-size: 10px;
+  display: block;
+}
+#cancer .next {
+  text-align: center;
+    position: relative;
+    top: 70px;
+    z-index: 0;
+}
+
+
+/*============================
+#interview
+============================*/
+
+#interview {
+  /*background: url(../img/interview_bg.jpg) center top;
+  background-size: cover;*/
+  background-color: #FFF;
+}
+
+#interview .cancer-bottom {
+  line-height: 0;
+  position: relative;
+  top: -10px;
+}
+
+#interview .cancer-bottom img {
+  width: 100%;
+}
+
+#interview .experience {}
+
+#interview .experience .inner{
+  overflow: hidden;
+  text-align: center;
+}
+#interview .experience h2 {
+  margin: 40px auto 50px;
+}
+#interview .experience p.headline {
+  margin: 70px auto 50px;
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+}
+
+
+#interview .experience .upper {
+  overflow: hidden;
+  height: auto;
+  display: block;
+}
+
+#interview .experience .upper ul {
+  float: left;
+  width: 40%;
+  margin: 0 0 50px;
+  padding: 0;
+}
+
+#interview .experience .upper ul li {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 20px 0;
+  border-bottom: 1px dashed #999;
+}
+
+li {}
+
+#interview .experience .upper ul li span {
+  font-size: 48px;
+  display: block;
+  font-weight: 400;
+}
+
+#interview .experience .upper ul li .color01 {
+  color: #3682B2;
+}
+
+#interview .experience .upper ul li .color03 {
+  color: #9EB72C;
+}
+#interview .experience .upper ul li .color02 {
+  color: #C25E80;
+}
+#interview .experience .upper .picture {
+  float: right;
+  width: 50%;
+}
+
+#interview .experience .upper .picture img {}
+
+#interview .experience .upper .support-system {
+  clear: both;
+}
+
+#interview .experience .upper .support-system p {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+#interview .experience .upper .support-system p span {}
+
+#interview .experience .upper .support-system p .color01 {
+  color: #3682B2;
+}
+
+#interview .experience .upper .support-system p .color02 {
+  color: #9EB72C;
+}
+#interview .experience .upper .support-system p .color03 {
+  color: #C25E80;
+}
+#interview .experience .upper .next {
+  padding: 40px 0;
+}
+
+#interview .experience .upper .next img {}
+
+
+
+
+#interview .experience h2 img {}
+
+#interview .experience p {
+  font-size: 48px;
+  line-height: 72px;
+  margin: 0 0 30px;
+  font-weight: bold;
+}
+
+#interview .experience p span {
+  font-size: 60px;
+  color: #1f2667;
+}
+
+#interview .next {
+  text-align: center;
+    position: relative;
+    top: 70px;
+    z-index: 0;
+}
+
+
+
+/*============================
+#medical-1
+============================*/
+
+#medical-1 {
+}
+
+#medical-1 .inner {
+  text-align: center;
+  padding: 70px 0 0;
+}
+
+#medical-1 .title {}
+
+#medical-1 .title p {
+  margin: 0 0 40px;
+}
+
+#medical-1 .title p span {
+  position: relative;
+  display: inline-block;
+  font-size: 36px;
+  color: #96251B;
+  font-weight: 400;
+}
+
+#medical-1 .title p span::before, #medical-1 .title p span::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  width: 36px;
+  height: 3px;
+  background-color: #96251B;
+}
+
+#medical-1 .title p span::before {
+  left: -50px;
+  -webkit-transform: rotate(60deg);
+  transform: rotate(60deg);
+}
+
+#medical-1 .title p span::after {
+  right: -50px;
+  -webkit-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+}
+
+#medical-1 .title h2 {
+  font-size: 60px;
+  font-weight: 400;
+  position: relative;
+  display: inline-block;
+  margin: 0 auto 80px;
+}
+
+#medical-1 .title h2::after {
+  content: "";
+  display: block;
+  background: #222;
+  width: 100px;
+  height: 2px;
+  margin: 30px auto -30px;
+}
+
+#medical-1 .upper {
+  overflow: hidden;
+  height: auto;
+  display: block;
+}
+
+#medical-1 .upper ul {
+  float: left;
+  width: 40%;
+  margin: 0 0 50px;
+  padding: 0;
+}
+
+#medical-1 .upper ul li {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 20px 0;
+  border-bottom: 1px dashed #999;
+}
+
+li {}
+
+#medical-1 .upper ul li span {
+  font-size: 48px;
+  display: block;
+  font-weight: 400;
+}
+
+#medical-1 .upper ul li .color01 {
+  color: #3682B2;
+}
+
+#medical-1 .upper ul li .color02 {
+  color: #9EB72C;
+}
+
+#medical-1 .upper .picture {
+  float: right;
+  width: 50%;
+}
+
+#medical-1 .upper .picture img {}
+
+#medical-1 .upper .support-system {
+  clear: both;
+}
+
+#medical-1 .upper .support-system p {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+#medical-1 .upper .support-system p span {}
+
+#medical-1 .upper .support-system p .color01 {
+  color: #3682B2;
+}
+
+#medical-1 .upper .support-system p .color02 {
+  color: #9EB72C;
+}
+
+#medical-1 .upper .next {
+  padding: 40px 0;
+}
+
+#medical-1 .upper .next img {}
+
+#medical-1 .middle {}
+
+#medical-1 .middle h3 {
+  font-size: 48px;
+  margin: 0 0 70px;
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  color: #574b24;
+}
+
+#medical-1 .middle h3 span {
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+}
+
+#medical-1 .middle h3 span::after {
+  content: "";
+  background: #E89115;
+  width: 100%;
+  height: 10px;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  z-index: -1;
+}
+
+#medical-1 .middle .block {
+  text-align: left;
+  overflow: hidden;
+  height: auto;
+  margin: 0 0 60px;
+  padding: 10px;
+  display: flex;
+}
+
+#medical-1 .middle .block .text {
+  width: 50%;
+  padding: 40px 20px;
+  background-color: none;
+}
+
+#medical-1 .middle .block .text p {
+  font-size: 24px;
+  line-height: 2;
+}
+
+#medical-1 .middle .block .image {
+  width: 50%;
+  display: block;
+}
+
+#medical-1 .middle .block .image img {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#medical-1 .middle .discovery {
+  margin: 0 0 0px;
+}
+
+#medical-1 .middle .discovery img {
+  background: rgba(255, 255, 255, 0.75);
+}
+
+#medical-1 .middle .support {}
+
+#medical-1 .middle .support img {
+  background: rgba(255, 255, 255, 0.75);
+}
+
+#medical-1 .middle .block-youtube{
+  overflow: hidden;
+  height: auto;
+  margin: 0 0 60px;
+  padding: 10px;
+  aspect-ratio: 16 / 9;
+}
+/*============================
+#medical-2
+============================*/
+
+#medical-2 {
+}
+
+#medical-2 .inner {
+  text-align: center;
+  padding: 70px 0;
+}
+
+#medical-2 .title {}
+
+#medical-2 .title p {
+  margin: 0 0 40px;
+}
+
+#medical-2 .title p span {
+  position: relative;
+  display: inline-block;
+  font-size: 36px;
+  color: #96251B;
+  font-weight: 400;
+}
+
+#medical-2 .title p span::before, #medical-2 .title p span::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  width: 36px;
+  height: 3px;
+  background-color: #96251B;
+}
+
+#medical-2 .title p span::before {
+  left: -50px;
+  -webkit-transform: rotate(60deg);
+  transform: rotate(60deg);
+}
+
+#medical-2 .title p span::after {
+  right: -50px;
+  -webkit-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+}
+
+#medical-2 .title h2 {
+  font-size: 60px;
+  font-weight: 400;
+  position: relative;
+  display: inline-block;
+  margin: 0 auto 80px;
+}
+
+#medical-2 .title h2::after {
+  content: "";
+  display: block;
+  background: #222;
+  width: 100px;
+  height: 2px;
+  margin: 30px auto -30px;
+}
+
+#medical-2 .upper {
+  overflow: hidden;
+  height: auto;
+  display: block;
+}
+
+#medical-2 .upper ul {
+  float: left;
+  width: 40%;
+  margin: 0 0 50px;
+  padding: 0;
+}
+
+#medical-2 .upper ul li {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 20px 0;
+  border-bottom: 1px dashed #999;
+}
+
+li {}
+
+#medical-2 .upper ul li span {
+  font-size: 48px;
+  display: block;
+  font-weight: 400;
+}
+
+#medical-2 .upper ul li .color01 {
+  color: #3682B2;
+}
+
+#medical-2 .upper ul li .color02 {
+  color: #9EB72C;
+}
+
+#medical-2 .upper .picture {
+  float: right;
+  width: 50%;
+}
+
+#medical-2 .upper .picture img {}
+
+#medical-2 .upper .support-system {
+  clear: both;
+}
+
+#medical-2 .upper .support-system p {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+#medical-2 .upper .support-system p span {}
+
+#medical-2 .upper .support-system p .color01 {
+  color: #3682B2;
+}
+
+#medical-2 .upper .support-system p .color02 {
+  color: #9EB72C;
+}
+
+#medical-2 .upper .next {
+  padding: 40px 0;
+}
+
+#medical-2 .upper .next img {}
+
+#medical-2 .middle {}
+
+#medical-2 .middle h3 {
+  font-size: 48px;
+  margin: 0 0 70px;
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  color: #574b24;
+}
+
+#medical-2 .middle h3 span {
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+}
+
+#medical-2 .middle h3 span::after {
+  content: "";
+  background: #E89115;
+  width: 100%;
+  height: 10px;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  z-index: -1;
+}
+
+#medical-2 .middle .block {
+  text-align: left;
+  overflow: hidden;
+  height: auto;
+  margin: 0 0 60px;
+  padding: 10px;
+  display: flex;
+}
+
+#medical-2 .middle .block .text {
+  width: 50%;
+  padding: 40px 20px;
+  background-color: none;
+}
+
+#medical-2 .middle .block .text p {
+  font-size: 24px;
+  line-height: 2;
+}
+
+#medical-2 .middle .block .image {
+  width: 50%;
+  display: block;
+}
+
+#medical-2 .middle .block .image img {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#medical-2 .middle .discovery {
+  margin: 0 0 70px;
+}
+
+#medical-2 .middle .discovery img {
+  background: rgba(255, 255, 255, 0.75);
+}
+
+#medical-2 .middle .support {}
+
+#medical-2 .middle .support img {
+  background: rgba(255, 255, 255, 0.75);
+}
+/*============================
+#try
+============================*/
+#try {
+  background-image: url(../img/try_bg.jpg);
+  background-size: cover;
+}
+#try h2{
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  font-size: 44px;
+  text-align: center;
+  margin: 0px auto 47px;
+  padding-top: 100px;
+  color: #4C3D30;
+}
+#try h2 span{
+  font-size: 60px;
+  color: #1f2667;
+}
+
+#try p.upper{
+  color: #1f2667;
+  font-size: 30px;
+  text-align: center;
+  margin: 0px auto 60px;
+  font-weight: bold;
+}
+#try .image-box{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+#try .image-box img{
+  width: calc(33.3333333% - 6px);
+
+}
+#try h3{
+
+}
+#try .inner{
+
+}
+#try .inner .block {text-align: left;overflow: hidden;height: auto;margin: 0; padding-bottom: 50px;}
+#try .inner .block h4 {font-family: 'Noto Serif JP', serif;color: #1f2667;font-size: 30px;margin: 0 0 40px;font-weight: 600;}
+#try .inner .block .image {float: left;width: 50%;display: block;padding: 0 30px 20px 0;}
+#try .inner .block .image img {box-shadow: 0px 2px 5px rgba(0,0,0,0.5);}
+#try .inner .block p {font-size: 24px; text-align: justify; line-height: 1.8em;}
+#try .inner .name-president {
+  position: relative;
+  width: auto;
+  float: left;
+  background-color: rgba(255, 255, 255, 0.75);
+  margin-left: 10%;
+  padding: 0 10px;
+  bottom: 40px;
+}
+#try .inner .name-president p {
+  font-size: 13px;
+  font-weight: bold;
+}
+/*============================
+#lounge
+============================*/
+
+#lounge {
+  background: url(../img/lounge_bg.jpg) center top;
+  background-size: cover;
+  background-color: #DDD6BE;
+  text-align: center;
+}
+
+#lounge .inner {
+  padding: 100px 0;
+}
+
+#lounge h2 {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 54px;
+  color: #574b24;
+  font-weight: 600;
+  text-shadow: 2px 2px 3px #fff, 2px 2px 3px #fff, 2px 2px 3px #fff;
+  margin: 0 0 60px;
+}
+
+#lounge .lounge-image {
+  margin: 0 0 60px;
+}
+
+#lounge .lounge-image ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+#lounge .lounge-image ul li {
+  width: 50%;
+}
+
+#lounge .lounge-image ul li img {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+#lounge h3 {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 54px;
+  color: #574b24;
+  font-weight: 600;
+  text-shadow: 2px 2px 3px #fff, 2px 2px 3px #fff, 2px 2px 3px #fff;
+  margin: 0 0 60px;
+}
+
+#lounge .lounge-special {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+#lounge .lounge-special .block {
+  width: 540px;
+  padding: 20px;
+  overflow: hidden;
+  height: auto;
+  margin: auto;
+}
+
+#lounge .lounge-special .block h4 {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 30px;
+  color: #FFF;
+  font-weight: 600;
+  text-shadow: 2px 2px 3px #000, 2px 2px 3px #000, 2px 2px 3px #000;
+  margin: 0 0 40px;
+  letter-spacing: 0.15em;
+}
+
+#lounge .lounge-special .block h4 span {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+#lounge .lounge-special .block h4 span::after {
+  position: absolute;
+  content: "";
+  background: #CAAD46;
+  display: block;
+  width: 100%;
+  height: 10px;
+  z-index: -1;
+}
+
+#lounge .lounge-special .block .special-inner {
+  position: relative;
+  text-align: left;
+}
+
+#lounge .lounge-special .block .image {
+  width: 40%;
+}
+
+#lounge .lounge-special .block .image img {}
+
+#lounge .lounge-special .block .explain {
+  width: 60%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 0 0 20px;
+}
+
+#lounge .lounge-special .block .explain p {
+  font-size: 21px;
+  line-height: 1.5;
+}
+
+#lounge .lounge-special .block .link {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+#lounge .lounge-special .block .link a {}
+
+#lounge .lounge-special .block .link a img {}
+
+div.discovery,div.support {
+  position: relative;
+}
+div.discovery::after,div.support::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border: #000 dashed 2px;
+  position: absolute;
+  top: 0; left: 0;
+}
+
+/*============================
+#footer
+============================*/
+
+#footer {
+  background-color: #1f2667;
+}
+
+#footer .copyright {
+  color: #FFF;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#footer .copyright address {
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/*============================
+#medical
+============================*/
+#medical {
+  background-image: url(../img/medical-bg.jpg);
+}

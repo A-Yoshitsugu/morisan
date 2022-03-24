@@ -1,0 +1,289 @@
+@charset "UTF-8";
+@media screen and (max-width:768px) {
+/*============================
+Base
+============================*/
+    .sp {
+        display: unset
+    }
+    .pc {
+        display: none
+    }
+/*============================
+.inner
+============================*/
+	.inner {}
+
+/*============================
+.inquery
+============================*/
+	.inquery {
+	}
+	.inquery .inner {
+	}
+	.inquery .form {
+	}
+	.inquery .form a {
+	}
+	.inquery .form a img {
+	}
+	.inquery .tel {
+	}
+	.inquery .tel a {
+	}
+	.inquery .tel a img {
+	}
+
+/*============================
+#header
+============================*/
+	#header {
+	}
+	#header .sitelogo {
+	}
+	#header .sitelogo a {
+	}
+	#header .sitelogo a img {
+	}
+	#header .contact {
+	}
+	#header .contact a {
+	}
+	#header .contact a img {
+	}
+
+/*============================
+#mainvisual
+============================*/
+	#mainvisual {
+	}
+	#mainvisual .inner {
+	}
+	#mainvisual .message {
+	}
+	#mainvisual .message p {
+	}
+	#mainvisual .infomation {
+	}
+	#mainvisual .infomation .header {
+	}
+	#mainvisual .infomation .header p {
+	}
+	#mainvisual .infomation .header p span {
+	}
+	#mainvisual .infomation .header p span b {
+	}
+	#mainvisual .infomation .contents {
+	}
+	#mainvisual .infomation .contents p {
+	}
+	#mainvisual .name {
+	}
+	#mainvisual .name p {
+	}
+	#mainvisual .name p span {
+	}
+
+/*============================
+#cancer
+============================*/
+	#cancer {
+	}
+	#cancer .inner {
+	}
+	#cancer h1 {
+	}
+	#cancer h2 {
+	}
+	#cancer h2 span {
+	}
+	#cancer .graph {
+	}
+	#cancer .graph img {
+	}
+	#cancer .graph .aside {
+	}
+	#cancer .graph .aside p {
+	}
+	#cancer .graph .aside p span {
+	}
+
+/*============================
+#interview
+============================*/
+	#interview {
+	}
+	#interview .cancer-bottom {
+	}
+	#interview .cancer-bottom img {
+	}
+	#interview .experience {
+	}
+	#interview .experience h2 {
+	}
+	#interview .experience h2 img {
+	}
+	#interview .experience p {
+	}
+	#interview .experience p span {
+	}
+	#interview .experience .picture {
+	}
+	#interview .experience .picture h2 {
+	}
+	#interview .experience .picture .images {
+	}
+	#interview .experience .picture .images ul {
+	}
+	#interview .experience .picture .images ul li {
+	}
+	#interview .experience .picture .images ul li img {
+	}
+	#interview .inner {
+	}
+	#interview h3 {
+	}
+	#interview .block {
+	}
+	#interview .block h4 {
+	}
+	#interview .block .image {
+	}
+	#interview .block .image img {
+	}
+	#interview .block p {
+	}
+
+/*============================
+#medical
+============================*/
+	#medical {
+	}
+	#medical .inner {
+	}
+	#medical .title {
+	}
+	#medical .title p {
+	}
+	#medical .title p span {
+	}
+	#medical .title p span::before {
+	}
+	#medical .title p span::after {
+	}
+	#medical .title h2 {
+	}
+	#medical .upper {
+	}
+	#medical .upper ul {
+	}
+	#medical .upper ul li {
+	}
+	#medical .upper ul li span.color01 {
+	}
+	#medical .upper ul li span.color02 {
+	}
+	#medical .upper .picture {
+	}
+	#medical .upper .picture img {
+	}
+	#medical .upper .support-system {
+	}
+	#medical .upper .support-system p {
+	}
+	#medical .upper .support-system p span {
+	}
+	#medical .upper .support-system p .color01 {
+	}
+	#medical .upper .support-system p .color02 {
+	}
+	#medical .upper .next {
+	}
+	#medical .upper .next img {
+	}
+	#medical .middle {
+	}
+	#medical .middle h3 {
+	}
+	#medical .middle h3 span {
+	}
+	#medical .middle h3 span::after {
+	}
+	#medical .middle .block {
+	}
+	#medical .middle .block .text {
+	}
+	#medical .middle .block .text p {
+	}
+	#medical .middle .block .image {
+	}
+	#medical .middle .block .image img {
+	}
+	#medical .middle .discovery {
+	}
+	#medical .middle .discovery img {
+	}
+	#medical .middle .support {
+	}
+	#medical .middle .support img {
+	}
+
+/*============================
+#lounge
+============================*/
+	#lounge {
+	}
+	#lounge .inner {
+	}
+	#lounge .lounge-title {
+	}
+	#lounge .lounge-image {
+	}
+	#lounge .lounge-image ul {
+	}
+	#lounge .lounge-image ul li {
+	}
+	#lounge .lounge-image ul li img {
+	}
+	#lounge .lounge-title {
+	}
+	#lounge .lounge-special {
+	}
+	#lounge .lounge-special .block {
+	}
+	#lounge .lounge-special .block h4 {
+	}
+	#lounge .lounge-special .block h4 span {
+	}
+	#lounge .lounge-special .block h4 span::after {
+	}
+	#lounge .lounge-special .block .special-inner {
+	}
+	#lounge .lounge-special .block .image {
+	}
+	#lounge .lounge-special .block .image img {
+	}
+	#lounge .lounge-special .block .explain {
+	}
+	#lounge .lounge-special .block .explain p {
+	}
+	#lounge .lounge-special .block .link {
+	}
+	#lounge .lounge-special .block .link a {
+	}
+	#lounge .lounge-special .block .link a img {
+	}
+/*============================
+#footer
+============================*/
+	#footer {
+	}
+	#footer .copyright {
+	}
+	#footer .copyright address {
+	}
+}
+
+
+
+

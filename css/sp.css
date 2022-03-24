@@ -1,0 +1,643 @@
+@charset "UTF-8";
+@media screen and (max-width:768px) {
+/*============================
+Base
+============================*/
+    .sp {
+        display: block;
+    }
+    .pc {
+        display: none
+    }
+/*============================
+.inner
+============================*/
+	.inner {
+    padding: 10px 10px 20px;
+}
+
+/*============================
+.inquery
+============================*/
+	.inquery {
+	}
+	.inquery .inner {
+	padding: 10px;
+	}
+	.inquery .form {
+	margin-bottom: 10px;
+	}
+	.inquery .form a {
+	}
+	.inquery .form a img {
+	}
+	.inquery .tel {
+	}
+	.inquery .tel a {
+	}
+	.inquery .tel a img {
+	}
+
+/*============================
+#header
+============================*/
+	#header {
+	position: static;
+	}
+	#header .inner {
+	display: block;
+  padding: 0px 10px 6px;
+	}
+	#header .sitelogo {
+	width: 40%;
+	margin: 0 auto 10px;
+	}
+	#header .sitelogo a {
+	}
+	#header .sitelogo a img {
+	}
+	#header .contact {
+	}
+	#header .contact a {
+	}
+	#header .contact a img {
+	}
+
+/*============================
+#mainvisual
+============================*/
+	#mainvisual {
+	background: none;
+	background-size: contain;
+	height: auto;
+	}
+	#mainvisual .inner {
+	padding: 0;
+	margin-bottom: -45px;
+	}
+	#mainvisual .message {
+	width: auto;
+	position: relative;
+	margin: 0 auto -80px;
+	display: block;
+	background: rgba(255,255,255,0.5);
+	top: -88px;
+	display: inline-block;
+	}
+	#mainvisual .message p {
+	font-size: 18px;
+	line-height: 1.6;
+	padding: 5px 8px;
+	}
+	#mainvisual .infomation {
+	width: calc(100% - 40px);
+	position: relative;
+	right: auto;
+	left: auto;
+	top: -65px;
+	margin: 0 auto;
+	border: 1px solid #CCC;
+	}
+	#mainvisual .infomation .header {
+	padding: 5px 0;
+	}
+	#mainvisual .infomation .header p {
+	font-size: 16px;
+	}
+	#mainvisual .infomation .header p span {
+	}
+	#mainvisual .infomation .header p span b {
+	font-size: 24px;
+	}
+	#mainvisual .infomation .contents {
+	}
+	#mainvisual .infomation .contents p {
+	font-size: 20px;
+	}
+	#mainvisual .name {
+	right: 52%;
+	bottom: 380px;
+	}
+	#mainvisual .name p {
+	text-align: right;
+	font-size: 10px;
+	}
+	#mainvisual .name p span {
+	font-size: 14px;
+	}
+
+/*============================
+#cancer
+============================*/
+	#cancer {
+	z-index: 5;
+	}
+	#cancer .inner {
+	padding: 40px 10px 60px;
+	}
+	#cancer h1 {
+	font-size: 30px;
+	margin: 0 0 20px;
+	}
+	#cancer h2 {
+	font-size: 24px;
+	margin: 0 0 20px;
+	}
+	#cancer h2 span {
+	}
+	#cancer .graph {
+	}
+	#cancer .graph img {
+	}
+	#cancer .graph .aside {
+	left: 0;
+	margin: 0 auto;
+	}
+	#cancer .graph .aside p {
+	font-size: 14px;
+	}
+	#cancer .graph .aside p span {
+	}
+
+/*============================
+#interview
+============================*/
+	#interview {
+	}
+
+	#interview .cancer-bottom {
+	}
+	#interview .cancer-bottom img {
+	}
+	#interview .experience {
+	}
+	#interview .experience h2 {
+	margin: 0 auto 20px;
+	}
+	#interview .experience h2 img {
+	}
+	#interview .experience p {
+	font-size: 20px;
+	margin: 0;
+	font-weight: 400;
+	line-height: 1.5;
+	}
+	#interview .experience p.headline {
+    margin: 21px auto 0px;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+}
+	#interview .experience p span {
+	font-size: 22px;
+	margin: 0px 0 20px;
+	padding: 10px 0 0;
+	display: block;
+	}
+	#interview .experience .upper ul {
+    width: 100%;
+    float: none;
+    margin: 0 0 30px;
+}
+#interview .experience .upper ul li {
+    padding: 10px 0;
+    font-size: 16px;
+}
+#interview .experience .upper ul li span {
+    font-size: 8vw;
+}
+	#interview .experience .upper .picture {
+		    width: 100%;
+    margin: 0 0 20px;
+    float: none;
+	}
+	#interview .experience .upper .picture h2 {
+	font-size: 18px;
+	margin: 0 0 20px;
+	}
+	#interview .experience .upper .picture .images {
+	}
+	#interview .experience .upper .picture .images ul {
+	display: unset;
+	padding: 0;
+	}
+	#interview .experience .upper .picture .images ul li {
+	padding: 0;
+	margin: 0 0 10px;
+	}
+	#interview .experience .upper .picture .images ul li img {
+	}
+	#interview .inner {
+	padding: 10px 10px 20px;
+	}
+	#interview h3 {
+	font-size: 18px;
+	margin: 0 0 20px;
+	}
+	#interview .block {
+	margin: 0 0 20px;
+	}
+	#interview .block h4 {
+	font-size: 20px;
+	margin: 0 0 20px;
+	}
+	#interview .block .image {
+	width: 100%;
+	margin: 0 0 20px;
+	float: none;
+	}
+	#interview .block .image img {
+	}
+	#interview .block p {
+	float: none;
+	width: 100%;
+	font-size: 14px;
+	line-height: 1.8;
+	}
+	#interview .experience .upper .support-system p{
+	font-size: 8vw;
+	font-weight: 400;
+    line-height: 1.5;
+	}
+
+/*============================
+#medical-1
+============================*/
+	#medical-1 {
+	}
+	#medical-1 .inner {
+	padding: 40px 10px 0;
+	}
+	#medical-1 .title {
+	}
+	#medical-1 .title p {
+	margin: 0 0 10px;
+	}
+	#medical-1 .title p span {
+	font-size: 6vw;
+	}
+	#medical-1 .title p span::before {
+	}
+	#medical-1 .title p span::after {
+	}
+	#medical-1 .title h2 {
+	font-size: 8vw;
+	margin: 0 0 40px;
+	}
+	#medical-1 .title h2::after {
+    width: 50px;
+    margin: 20px auto -20px;
+}
+	#medical-1 .upper {
+	}
+	#medical-1 .upper ul {
+	width: 100%;
+	float: none;
+	margin: 0 0 30px;
+	}
+	#medical-1 .upper ul li {
+		padding: 10px 0;
+		font-size: 16px;
+	}
+	#medical-1 .upper ul li span {
+	font-size: 8vw;
+	}
+	#medical-1 .upper ul li span.color01 {
+	}
+	#medical-1 .upper ul li span.color02 {
+	}
+	#medical-1 .upper .picture {
+	width: 100%;
+	margin: 0 0 20px;
+	float: none;
+	}
+	#medical-1 .upper .picture img {
+	}
+	#medical-1 .upper .support-system {
+	}
+	#medical-1 .upper .support-system p {
+	font-size: 8vw;
+	}
+	#medical-1 .upper .support-system p span {
+	}
+	#medical-1 .upper .support-system p .color01 {
+	}
+	#medical-1 .upper .support-system p .color02 {
+	}
+	#medical-1 .upper .next {
+	padding: 20px 0px;
+	}
+	#medical-1 .upper .next img {
+	width: 20%;
+	}
+	#medical-1 .middle {
+	}
+	#medical-1 .middle h3 {
+	font-size: 6vw;
+	margin: 0 0 20px;
+	}
+	#medical-1 .middle h3 span {
+	}
+	#medical-1 .middle h3 span::after {
+	}
+	#medical-1 .middle .block {
+	padding: 0;
+	margin: 0 0 30px;
+	flex-wrap: wrap;
+	}
+	#medical-1 .middle .block .text {
+	width: 100%;
+	float: none;
+	margin: 0 0 0px;
+	 padding: 10px 0 0 0;
+	order: 2;
+	}
+	#medical-1 .middle .block .text p {
+	font-size: 17px;
+	line-height: 1.5;
+	}
+	#medical-1 .middle .block .image {
+	width: 100%;
+	float: none;
+	order: 1;
+	}
+	#medical-1 .middle .block .image img {
+		margin-bottom: 14px;
+	}
+	#medical-1 .middle .discovery {
+	}
+	#medical-1 .middle .discovery img {
+	}
+	#medical-1 .middle .support {
+	}
+	#medical-1 .middle .support img {
+	}
+	#medical-1 .middle .block-youtube iframe {
+		height: 100%;
+	}
+  /*============================
+  #medical-2
+  ============================*/
+  	#medical-2 {
+  	}
+  	#medical-2 .inner {
+  	padding: 40px 10px;
+  	}
+  	#medical-2 .title {
+  	}
+  	#medical-2 .title p {
+  	margin: 0 0 10px;
+  	}
+  	#medical-2 .title p span {
+  	font-size: 6vw;
+  	}
+  	#medical-2 .title p span::before {
+  	}
+  	#medical-2 .title p span::after {
+  	}
+  	#medical-2 .title h2 {
+  	font-size: 8vw;
+  	margin: 0 0 40px;
+  	}
+  	#medical-2 .title h2::after {
+      width: 50px;
+      margin: 20px auto -20px;
+  }
+  	#medical-2 .upper {
+  	}
+  	#medical-2 .upper ul {
+  	width: 100%;
+  	float: none;
+  	margin: 0 0 30px;
+  	}
+  	#medical-2 .upper ul li {
+  		padding: 10px 0;
+  		font-size: 16px;
+  	}
+  	#medical-2 .upper ul li span {
+  	font-size: 8vw;
+  	}
+  	#medical-2 .upper ul li span.color01 {
+  	}
+  	#medical-2 .upper ul li span.color02 {
+  	}
+  	#medical-2 .upper .picture {
+  	width: 100%;
+  	margin: 0 0 20px;
+  	float: none;
+  	}
+  	#medical-2 .upper .picture img {
+  	}
+  	#medical-2 .upper .support-system {
+  	}
+  	#medical-2 .upper .support-system p {
+  	font-size: 8vw;
+  	}
+  	#medical-2 .upper .support-system p span {
+  	}
+  	#medical-2 .upper .support-system p .color01 {
+  	}
+  	#medical-2 .upper .support-system p .color02 {
+  	}
+  	#medical-2 .upper .next {
+  	padding: 20px 0px;
+  	}
+  	#medical-2 .upper .next img {
+  	width: 20%;
+  	}
+  	#medical-2 .middle {
+  	}
+  	#medical-2 .middle h3 {
+  	font-size: 6vw;
+  	margin: 0 0 20px;
+  	}
+  	#medical-2 .middle h3 span {
+  	}
+  	#medical-2 .middle h3 span::after {
+  	}
+  	#medical-2 .middle .block {
+  	padding: 0;
+  	margin: 0 0 30px;
+  	flex-wrap: wrap;
+  	}
+  	#medical-2 .middle .block .text {
+  	width: 100%;
+  	float: none;
+  	margin: 0 0 0px;
+  	padding: 0;
+  	order: 2;
+  	}
+  	#medical-2 .middle .block .text p {
+  	font-size: 17px;
+	line-height: 1.5;
+  	}
+  	#medical-2 .middle .block .image {
+  	width: 100%;
+  	float: none;
+  	order: 1;
+  	}
+  	#medical-2 .middle .block .image img {
+		margin-bottom: 14px;
+  	}
+  	#medical-2 .middle .discovery {
+  	}
+  	#medical-2 .middle .discovery img {
+  	}
+  	#medical-2 .middle .support {
+  	}
+  	#medical-2 .middle .support img {
+  	}
+  /*============================
+  #try
+  ============================*/
+  #try {
+	  background-image: none;
+  }
+  #try h2 {
+	background-image: url(../img/try_sp01_bg.jpg);
+	background-size: cover;
+	font-size: 17px;
+	margin: 0 -10px;
+	padding-bottom: 47px;
+}
+#try h2 span {
+    font-size: 20px;
+}
+#try p.upper {
+    font-size: 18px;
+    text-align: center;
+    margin: 0px auto 30px;
+}
+#try .image-box {
+    flex-wrap: wrap;
+}
+#try .image-box img {
+    width: 100%;
+    margin: 0 0 10px;
+}
+#try .inner .block h4 {
+    font-size: 21px;
+    margin: 0 0 20px;
+}
+#try .inner .block .image {
+	padding: 0;
+    width: 100%;
+    float: none;
+	padding-bottom: 20px;
+}
+#try .inner .block p {
+    float: none;
+    width: 100%;
+    font-size: 17px;
+    line-height: 1.5;
+}
+#try .inner .name-president {
+	float: none;
+	width: fit-content;
+	margin: 0;
+}
+#try .inner .sp-last {
+	background-image: url(../img/try_sp02_bg.jpg);
+	background-size: cover;
+	margin: 0 -10px;
+  }
+#try .inner .sp-last h4 {
+	padding: 0 10px;
+}
+#try .inner .sp-last {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+#try .inner .sp-last p {
+	padding: 0 10px;
+}
+/*============================
+#lounge
+============================*/
+	#lounge {
+	}
+	#lounge .inner {
+	padding: 40px 10px;
+	}
+	#lounge h2 {
+	font-size: 30px;
+	margin: 0 0 20px;
+	}
+	#lounge .lounge-image {
+	margin: 0 0 20px;
+	}
+	#lounge .lounge-image ul {
+	}
+	#lounge .lounge-image ul li {
+	width: 50%;
+	}
+	#lounge .lounge-image ul li img {
+	}
+	#lounge h3 {
+	font-size: 24px;
+	margin: 0 0 20px;
+	}
+	#lounge .lounge-special {
+	display: block;
+	}
+	#lounge .lounge-special .block {
+	width: 100%;
+	margin: 0 0 20px;
+	}
+	#lounge .lounge-special .block h4 {
+	font-size: 20px;
+	margin: 0 0 20px;
+	animation: 0;
+	}
+	#lounge .lounge-special .block h4 span {
+	}
+	#lounge .lounge-special .block h4 span::after {
+	bottom: -3px;
+	}
+	#lounge .lounge-special .block .special-inner {
+	display: block;
+	overflow: hidden;
+	height: auto;
+	}
+	#lounge .lounge-special .block .image {
+	float: left;
+	}
+	#lounge .lounge-special .block .image img {
+	}
+	#lounge .lounge-special .block .explain {
+	position: unset;
+	float: right;
+	}
+	#lounge .lounge-special .block .explain p {
+	font-size: 16px;
+	}
+	#lounge .lounge-special .block .link {
+	position: unset;
+	clear: both;
+	text-align: center;
+	padding: 20px 0 0;
+	}
+	#lounge .lounge-special .block .link a {
+	}
+	#lounge .lounge-special .block .link a img {
+	}
+
+
+  #cancer .next,#interview .next {
+      top: 20px;
+  }
+  #cancer .next img,#interview .next img{
+      width: 12%
+  }
+/*============================
+#footer
+============================*/
+	#footer {
+	}
+	#footer .copyright {
+	padding: 10px;
+	}
+	#footer .copyright address {
+	font-size: 10px;
+	}
+}
